@@ -13,6 +13,7 @@ import database
 
 app = FastAPI()
 
+print("Hiiii---------------")
 
 
 
