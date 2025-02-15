@@ -18,7 +18,7 @@ print("Hello____")
 print("Bye")
 
 
-
+git
 
 @app.get("/teacher/{teacher_id}")
 async def get_teacher_students(teacher_id: int, db: AsyncSession = Depends(get_db)):
