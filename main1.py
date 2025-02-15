@@ -13,6 +13,11 @@ import database
 
 app = FastAPI()
 
+
+
+
+
+
 @app.get("/teacher/{teacher_id}")
 async def get_teacher_students(teacher_id: int, db: AsyncSession = Depends(get_db)):
     query = select(Teacher.teacher_name, Student.student_name).join(Student, Teacher.teacher_id == Student.teacher_id).where(Teacher.teacher_id == teacher_id)
