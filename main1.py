@@ -13,7 +13,7 @@ import database
 
 app = FastAPI()
 
-print("Hiiii---------------")
+print("Hiiii----")
 
 
 
