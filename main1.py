@@ -15,7 +15,7 @@ app = FastAPI()
 
 print("Hiiii----")
 print("Hello____")
-
+print("Bye")
 
 
 
